@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Boathouse';
+    font-weight: 900;
+    font-style: italic;
+    src: url("https://d3nn82uaxijpm6.cloudfront.net/fonts/boathouse/Boathouse-Black-Oblique.ttf") format("truetype");
+    font-display: swap;
+}
