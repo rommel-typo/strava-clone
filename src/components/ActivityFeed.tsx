@@ -65,7 +65,7 @@ export const ActivityFeed: React.FC<Props> = ({ activities }) => {
                             <div className="flex-1">
                                 <div>
                                     <h3 className="font-bold text-sm text-gray-900 leading-tight">Will Park</h3>
-                                    <p className="text-xs text-gray-500 leading-tight mt-0.5">{formatActivityDate(activity.date)}</p>
+                                    <p className="text-xs text-gray-500 leading-tight mt-0.5">{formatActivityDate(activity.date)} · Garmin Forerunner 265</p>
                                 </div>
 
                                 <h2 className="mt-4 text-xl font-bold text-gray-900 font-strava">{activity.title}</h2>
