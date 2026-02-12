@@ -26,7 +26,7 @@ export const ActivityFeed: React.FC<Props> = ({ activities }) => {
 
     return (
         <div className="space-y-6">
-            <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+            <div className="bg-white p-4 rounded-lg shadow-subtle border border-gray-200">
                 <div className="flex justify-between items-center mb-4">
                     <h2 className="text-xl font-bold">This Week</h2>
                     <span className="text-gray-500 text-sm">{weekRange}</span>
@@ -49,7 +49,7 @@ export const ActivityFeed: React.FC<Props> = ({ activities }) => {
 
             <div className="space-y-4">
                 {currentWeekActivities.map(activity => (
-                    <div key={activity.id} className="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+                    <div key={activity.id} className="bg-white p-4 rounded-lg shadow-subtle border border-gray-200">
                         <div className="flex gap-4">
                             {/* Left Column: Avatar & Icon */}
                             <div className="flex flex-col items-center">
