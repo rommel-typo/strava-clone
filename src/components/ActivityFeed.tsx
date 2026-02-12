@@ -68,7 +68,7 @@ export const ActivityFeed: React.FC<Props> = ({ activities }) => {
                                     <p className="text-xs text-gray-500 leading-tight mt-0.5">{formatActivityDate(activity.date)}</p>
                                 </div>
 
-                                <h2 className="mt-4 text-xl text-gray-900 font-strava">{activity.title}</h2>
+                                <h2 className="mt-4 text-xl font-bold text-gray-900 font-strava">{activity.title}</h2>
 
                                 <div className="mt-4 flex gap-8">
                                     <div>
