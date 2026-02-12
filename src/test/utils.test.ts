@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { calculateDistance, parseDuration, parsePace } from '../utils/calculations';
-import { getCurrentWeekRange, isActivityInCurrentWeek } from '../utils/dateUtils';
+import { getCurrentWeekRange } from '../utils/dateUtils';
 
 describe('Calculations', () => {
     it('parses duration (MM:SS) correctly', () => {
@@ -30,7 +30,6 @@ describe('Calculations', () => {
 describe('Date Utils', () => {
     it('identifies dates within the current week (Mon-Sun)', () => {
         // Basic check without mocks for now to ensure stability
-        const now = new Date();
         const range = getCurrentWeekRange();
         expect(range.start).toBeDefined();
         expect(range.end).toBeDefined();
