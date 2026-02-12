@@ -5,7 +5,7 @@ import App from '../App';
 describe('App', () => {
     it('renders the Strava Clone header', () => {
         render(<App />);
-        expect(screen.getByText(/STRAVA/i)).toBeInTheDocument();
+        expect(screen.getByAltText(/Strava/i)).toBeInTheDocument();
     });
 
     it('renders the Activity Form', () => {
